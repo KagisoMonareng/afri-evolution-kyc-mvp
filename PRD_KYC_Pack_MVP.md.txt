@@ -1,0 +1,22 @@
+# Afri Evolution – KYC Pack Generator (MVP)
+## Objective
+Allow a user to upload an ID and Proof of Address, extract relevant fields, and generate a regulator-ready PDF pack. Designed for SMEs to meet compliance faster.
+
+## Key Features
+- Upload endpoint (PDF, PNG, JPG support)
+- OCR/extraction of identity and address fields
+- Field validation + error flagging
+- Tokenisation of PII before model call
+- PDF generation with Afri Evolution branding
+- Download link (temporary)
+- Logs for audit trail
+
+## Endpoints
+- POST `/upload`
+- POST `/generate_pack`
+- GET `/download/:id`
+
+## Security & Compliance
+- Tokenised prompt layer
+- Local-only PII retention (72-hour TTL)
+- POPIA-compliant architecture
