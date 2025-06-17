@@ -1,0 +1,39 @@
+{
+  "name": "mvp_kyc_pack_generator",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KagisoMonareng/afri-evolution-kyc-mvp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KagisoMonareng/afri-evolution-kyc-mvp/issues"
+  },
+  "homepage": "https://github.com/KagisoMonareng/afri-evolution-kyc-mvp#readme",
+  "dependencies": {
+    "compromise": "^14.14.4",
+    "compromise-dates": "^3.7.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.1",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "pdf2pic": "^3.2.0",
+    "pdfkit": "^0.17.1",
+    "sharp": "^0.34.2",
+    "tempy": "^3.1.0",
+    "tesseract.js": "^4.0.2",
+    "uuid": "^11.1.0"
+  },
+  "description": ""
+}
